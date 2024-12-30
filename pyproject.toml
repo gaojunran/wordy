@@ -1,0 +1,10 @@
+[project]
+name = "wordy"
+version = "0.1.0"
+description = "A simple command-line wrapper for [youdao](https://github.com/longcw/youdao)."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "questionary>=2.1.0",
+    "youdao>=0.3.6",
+]
