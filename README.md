@@ -26,7 +26,7 @@ python main.py
 
 Type in the words you want to query. Directly you can get a colorful result(Supported by [youdao](https://github.com/longcw/youdao)).
 
-We also support extra options/arguments in [youdao](https://github.com/longcw/youdao), just type as below:
+We also support extra options/arguments in [youdao](https://github.com/longcw/youdao), just replace 
 
 ```bash
 >>> -c
@@ -36,3 +36,7 @@ We also support extra options/arguments in [youdao](https://github.com/longcw/yo
 ### Notice
 
 📢 Run in real terminal instead of PyCharm/VS Code's built-in terminal.
+
+##  TODO
+
+- [ ] Transform into a package which can be installed and run in terminal.

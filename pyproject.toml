@@ -5,6 +5,8 @@ description = "A simple command-line wrapper for [youdao](https://github.com/lon
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "pandas>=2.2.3",
     "questionary>=2.1.0",
     "youdao>=0.3.6",
 ]
+
