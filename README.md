@@ -43,10 +43,11 @@ scoop install typst  # For Windows with Scoop
 # Visit https://github.com/typst/typst/releases if you don't meet either of the above requirements.
 ```
 
-You need to run `main.py` with `--csv` first to generate the CSV file. Then, run `main.py` with `--pdf`. 
+You need to run `main.py` with `--csv` first to generate the CSV file. Then, run `main.py` with `--pdf`.
+
+![pdf_preview.png](screenshots/pdf_preview.png)
 
 If you are familiar with [typst](https://typst.app/), you can customize the [template](./typst-template/main.typ) to fit your needs.
-
 ### Compatability with [youdao](https://github.com/longcw/youdao)
 
 We also support extra options/arguments in [youdao](https://github.com/longcw/youdao), just run with these options/arguments.

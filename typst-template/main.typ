@@ -1,3 +1,5 @@
+#set page(margin: 1.5cm)
+
 #let data = csv("youdao.csv")
 #let _ = data.remove(0)
 
