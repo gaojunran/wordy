@@ -4,7 +4,7 @@
 
 👍🏻 A simple command-line wrapper for [youdao](https://github.com/longcw/youdao).
 
-⭐️ Support consecutively querying multiple words, and save them to CSV file.
+⭐️ Support consecutively querying multiple words, save them to CSV file, and generate word list PDF.
 
 ## Usage
 
