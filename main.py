@@ -50,21 +50,23 @@ def to_pdf():
 
 def main():
     options = sys.argv[1:]
-    if options[0] == "--csv":
+    if not options:
+        while True:
+            word = input(">>> ").strip()
+            if word:
+                run_yd_with_args(word)
+                if not confirm("Save?").ask():
+                    run_yd_with_args("-d", word)
+    elif options[0] == "--csv":
         to_csv()
         return
     elif options[0] == "--pdf":
         to_pdf()
         return
-    elif options[0]:
+    else:
         run_yd_with_args(*options)  # run youdao with args
         return
-    while True:
-        word = input(">>> ").strip()
-        if word:
-            run_yd_with_args(word)
-            if not confirm("Save?").ask():
-                run_yd_with_args("-d", word)
+
 
 
 if __name__ == "__main__":
