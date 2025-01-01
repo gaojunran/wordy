@@ -61,5 +61,5 @@ uv run main.py -c   # Same as yd -c
 📢 Run in real terminal instead of PyCharm/VS Code's built-in terminal.
 
 ##  TODO
-
+- [ ] Convert to JSON format file so that it can be imported into [qwerty-learner](https://github.com/RealKai42/qwerty-learner).
 - [ ] Transform into a package which can be installed and run in terminal.
