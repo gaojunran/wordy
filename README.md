@@ -2,7 +2,7 @@
 
 ## Description
 
-👍🏻 A simple command-line wrapper for [youdao](https://github.com/longcw/youdao).
+👍🏻 A simple command-line wrapper for [youdao](https://github.com/longcw/youdao) (You need to install it first).
 
 ⭐️ Support consecutively querying multiple words, save them to CSV file, and generate word list PDF.
 
@@ -12,8 +12,7 @@
 ```shell
 git clone https://github.com/gaojunran/wordy.git
 cd wordy
-uv install # need uv first
-uv run main.py
+uv run main.py  # need uv first
 ```
 
 ### Install without uv
@@ -24,7 +23,7 @@ pip install .
 python main.py
 ```
 
-Type in the words you want to query. Directly you can get a colorful result(Supported by [youdao](https://github.com/longcw/youdao)).
+Type in the words you want to query. Directly you can get a colorful result (Supported by [youdao](https://github.com/longcw/youdao)).
 
 ### Generate CSV file
 
@@ -48,6 +47,7 @@ You need to run `main.py` with `--csv` first to generate the CSV file. Then, run
 ![pdf_preview.png](screenshots/pdf_preview.png)
 
 If you are familiar with [typst](https://typst.app/), you can customize the [template](./typst-template/main.typ) to fit your needs.
+
 ### Compatability with [youdao](https://github.com/longcw/youdao)
 
 We also support extra options/arguments in [youdao](https://github.com/longcw/youdao), just run with these options/arguments.
